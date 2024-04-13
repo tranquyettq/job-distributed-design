@@ -20,6 +20,7 @@
 	<!-- sub modules -->
 	<modules>
 		<module>common-module</module>
+		<module>task-module</module>
 	</modules>
 	<dependencies>
 		<dependency>
@@ -95,6 +96,11 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>23.3.0.23.09</version>
 		</dependency>
 		<dependency>
 			<groupId>io.r2dbc</groupId>
