@@ -1,6 +1,6 @@
 package com.tranquyet.task.producer.dto;
 
-import com.tranquyet.common.dto.*;
+import com.tranquyet.common.dto.AbstractDTO;
 import lombok.*;
 
 @Getter
