@@ -1,13 +1,13 @@
-package com.tranquyet.task.taskmodule;
+package com.tranquyet.task.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskModuleApplication {
+public class TaskConsumerModuleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TaskModuleApplication.class, args);
+        SpringApplication.run(TaskConsumerModuleApplication.class, args);
     }
 
 }

@@ -1,10 +1,10 @@
-package com.tranquyet.task.taskmodule;
+package com.tranquyet.task.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskModuleApplicationTests {
+class TaskConsumerModuleApplicationTests {
 
     @Test
     void contextLoads() {
