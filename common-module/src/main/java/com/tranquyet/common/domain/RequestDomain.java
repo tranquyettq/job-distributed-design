@@ -1,7 +1,8 @@
-package com.tranquyet.common.dto;
+package com.tranquyet.common.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.tranquyet.common.dto.AbstractDTO;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -10,14 +11,10 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonSerialize(include=JsonSerialize.Inclusion.NON_NULL)
-public abstract class AbstractDTO {
-    private String createdDate;
-    private String updatedDate;
-    private String createdUser;
-    private String updatedUser;
-    private Integer status;
-    private Integer deletedStatus;
+public class RequestDomain extends AbstractDTO {
+    private String requestId;
+    private String time = String.valueOf(System.nanoTime());
 }
