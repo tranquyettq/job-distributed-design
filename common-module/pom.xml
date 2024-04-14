@@ -8,7 +8,7 @@
         <artifactId>com.tranquyet</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>com.tranquyet.common</artifactId>
+    <artifactId>common-module</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>common-module</name>
     <description>common-module</description>

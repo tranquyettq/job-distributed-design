@@ -8,7 +8,7 @@
         <artifactId>com.tranquyet</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>com.tranquyet.task.consumer</artifactId>
+    <artifactId>task-consumer-module</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>task-consumer-module</name>
     <description>task-consumer-module</description>
@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>com.tranquyet</groupId>
-            <artifactId>com.tranquyet.common</artifactId>
+            <artifactId>common-module</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
